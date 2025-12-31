@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+overflow-x: hidden;
+margin: 0;
+}
+
+.header__background {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+background-image: url(/img/pictures/Фон.png);
+background-size: cover;   
+background-position: top;
+background-repeat: no-repeat;
+z-index: 0;
+}
+
+.header__menu {
+padding: 33px;
+margin-left: 150px;
+}
+
+.menu-button {
+border: none;          
+background: transparent; 
+padding: 0;        
+cursor: pointer; 
+width: 50px;
+height: 50px;  
+}
+
+.dropdown {
+display: none;
+position: absolute;
+margin-top: 10px;
+list-style: none;
+padding: 0;
+width: 180px;
+border-radius: 5px;
+z-index: 1000;
+}
+
+.dropdown li a {
+display: block;
+padding: 10px 15px;
+color: white;
+text-decoration: none;
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+}
+
+.dropdown li a:hover {
+color: rgb(255, 218, 224);
+}
+
+.dropdown-wrapper {
+position: relative;
+display: inline-block;
+}
+
+.header__nav {
+display: flex;            
+justify-content: flex-start;
+position: relative;
+left: 250px;
+bottom: 30px;
+}
+
+.nav-list {
+list-style: none;
+display: flex;     
+flex-direction: row; 
+gap: 30px;
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+position: relative;
+z-index: 10;
+}
+
+.nav-list a {
+text-decoration: none;
+color: aliceblue;
+}
+
+.nav-list a:hover{
+color: palevioletred;
+transition: 1s ease;
+}
+
+.header__icon {
+display: flex;
+justify-content: center;
+position: relative;
+bottom: 60px;
+width: 100%;
+height: 100%;
+right: 30px;
+}
+
+.nav-icon {
+position: relative;
+display: flex;
+justify-content: flex-end;
+gap: 30px;
+right: 170px;
+bottom: 90px;
+}
+
+.header__collection {
+display: flex;
+flex-direction: column;
+margin-top: 280px;
+}
+
+.header__title {
+position: relative;
+display: flex;
+justify-content: center;
+font-size: 46px;
+
+}
+
+.header__title p {
+font-family: 'Raleway', sans-serif;
+color: #f5f5f5;
+font-weight: 300;
+}
+
+.line {
+position: relative;
+border-top: 1px solid #ffffff; 
+margin-top: 20px;
+width: 50%;
+height: 1%;    
+display: flex;
+left: 500px;
+}
+
+.header__text {
+position: relative;
+justify-content: center;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none; 
+font-size: 30px;
+margin-top: 30px;
+font-family: 'Raleway', sans-serif;
+}
+
+.header__text a {
+text-decoration: none;
+color: #f5f5f5;
+}
+
+.header__text a:hover {
+   color: palevioletred;
+transition: 1s ease;
+}
