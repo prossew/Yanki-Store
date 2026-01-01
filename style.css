@@ -79,7 +79,7 @@ bottom: 30px;
 list-style: none;
 display: flex;     
 flex-direction: row; 
-gap: 30px;
+gap: 40px;
 font-size: 18px;
 font-family: 'Raleway', sans-serif;
 position: relative;
@@ -110,7 +110,7 @@ right: 30px;
 position: relative;
 display: flex;
 justify-content: flex-end;
-gap: 30px;
+gap: 40px;
 right: 170px;
 bottom: 90px;
 }
@@ -139,10 +139,9 @@ font-weight: 300;
 position: relative;
 border-top: 1px solid #ffffff; 
 margin-top: 20px;
-width: 50%;
 height: 1%;    
 display: flex;
-left: 500px;
+
 }
 
 .header__text {
@@ -163,6 +162,6 @@ color: #f5f5f5;
 }
 
 .header__text a:hover {
-   color: palevioletred;
+color: palevioletred;
 transition: 1s ease;
 }
