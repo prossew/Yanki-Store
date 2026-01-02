@@ -10,7 +10,7 @@
 <body>
    <header>
   <div class="header__menu">
-       <div class="header__background">
+       <div class="header__background ">
        </div>
     <div class="dropdown-wrapper">
       <button class="menu-button">
@@ -74,17 +74,64 @@
 </main>
 <section class="subscription">
   <div class="subscription__title">
-    <h3>Узнайте  первым о новинках</h3>
+    <p>Узнайте  первым о новинках</p>
   </div>
   <div class="subscription__form">
-    <form action="">
+    <form action="#" method="post">
       <label for="email">
         <input type="email" name="email" id="email" placeholder="Ваш e-mail*" required>
-        <button class="subscription__button">ПОДПИСАТЬСЯ</button>
       </label>
     </form>
+         <button type="submit" class="subscription__button">ПОДПИСАТЬСЯ</button>
       <p class="subscription__notice">Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с условиями конфиденциальности.</p>
   </div>
 </section>
+<footer>
+  <nav class="footer_nav">
+    <div class="footer__column company">
+      <div class="footer__title">
+        <p>КОМПАНИЯ</p>
+    <ul class="footer__list">
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      </div>
+    </div>
+
+  <div class="footer__column usefull">
+      <div class="footer__title">
+        <p>ПОЛЕЗНОЕ</p>
+    <ul class="footer__list">
+        <li><a href="#">Оплата и доставка</a></li>
+        <li><a href="#">Условия возврата</a></li>
+        <li><a href="#">Бонусная система</a></li>
+      </ul>
+      </div>
+    </div>
+
+     <div class="footer__column buyer">
+      <div class="footer__title">
+        <p>ПОКУПАТЕЛЮ</p>
+    <ul class="footer__list">
+        <li><a href="#">Избранное</a></li>
+        <li><a href="#">Публичная оферта</a></li>
+        <li><a href="#">Политика конфиденциальности</a></li>
+      </ul>
+      </div>
+    </div>
+
+     <div class="footer__column contacts" >
+      <div class="footer__title">
+        <p>КОНТАКТЫ</p>
+    <ul class="footer__list">
+        <a href="#" class="footer__icon"><img src="/img/icon/icon_telegram.svg" alt=""></a>
+        <li><a href="#">+8000000000</a></li>
+        <li><a href="#">info@yanki.com</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+</footer>
+<div class="back"></div>
 </body>
 </html>
