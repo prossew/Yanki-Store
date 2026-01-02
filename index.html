@@ -17,20 +17,20 @@
         <img src="/img/icon/dropdown.svg" alt="иконка-выпадающего меню">
     </button>
    <ul class="dropdown">
-  <li><a href="#" id="account">ЛИЧНЫЙ КАБИНЕТ</a></li>
-  <li><a href="#" id="new">NEW</a></li>
-  <li><a href="#" id="catalog">КАТАЛОГ</a></li>
-  <li><a href="#" id="about">О НАС</a></li>
-  <li><a href="#" id="returns">УСЛОВИЯ ВОЗВРАТА</a></li>
-  <li><a href="#" id="contacts">КОНТАКТЫ</a></li>
+  <li><a href="#" class="menu-link account">ЛИЧНЫЙ КАБИНЕТ</a></li>
+  <li><a href="#" class="menu-link new">NEW</a></li>
+  <li><a href="#" class="menu-link catalog">КАТАЛОГ</a></li>
+  <li><a href="#" class="menu-link about">О НАС</a></li>
+  <li><a href="#" class="menu-link returns">УСЛОВИЯ ВОЗВРАТА</a></li>
+  <li><a href="#" class="menu-link contacts">КОНТАКТЫ</a></li>
 </ul>
     </div>
     <nav>
     <div class="header__nav">
      <ul class="nav-list">
-        <li><a href="#" id="new">NEW</a></li>
-        <li><a href="#" id ="catalog">КАТАЛОГ</a></li>
-        <li><a href="#" id="about">О НАС</a></li>
+      <li><a href="#" class="nav-link new">NEW</a></li>
+      <li><a href="#" class="nav-link catalog">КАТАЛОГ</a></li>
+      <li><a href="#" class="nav-link about">О НАС</a></li>
      </ul>
     </div> 
     <div class="header__icon">
@@ -53,7 +53,7 @@
      </nav>
      <div class="header__collection">
      <div class="header__title">
-        <p>Новая коллекция</з>
+        <h1>Новая коллекция</h1>
      </div>
      <div class="line"></div>
      <div class="header__text">
@@ -61,6 +61,30 @@
      </div>
     </div>
 </header>
-
+<main>
+  <div class="main__catalog">
+    <p>Категории</p>
+  </div>
+  <div class="main__img">
+    <a href="#"><img src="/img/pictures/jackets.png" alt="картинка-куртки"></a>
+    <a href="#"><img src="/img/pictures/coat.png" alt="картинка-пальто"></a>
+    <a href="#"><img src="/img/pictures/fur_coats.png" alt="картинка-шубы"></a>
+    <a href="#"><img src="/img/pictures/parks.png" alt="картинка-парки"></a>
+  </div>
+</main>
+<section class="subscription">
+  <div class="subscription__title">
+    <h3>Узнайте  первым о новинках</h3>
+  </div>
+  <div class="subscription__form">
+    <form action="">
+      <label for="email">
+        <input type="email" name="email" id="email" placeholder="Ваш e-mail*" required>
+        <button class="subscription__button">ПОДПИСАТЬСЯ</button>
+      </label>
+    </form>
+      <p class="subscription__notice">Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с условиями конфиденциальности.</p>
+  </div>
+</section>
 </body>
 </html>

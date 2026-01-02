@@ -12,7 +12,7 @@ margin: 0;
 }
 
 .header__background {
-position: fixed;
+position: absolute;
 top: 0;
 left: 0;
 width: 100%;
@@ -21,12 +21,12 @@ background-image: url(/img/pictures/Фон.png);
 background-size: cover;   
 background-position: top;
 background-repeat: no-repeat;
-z-index: 0;
+z-index: -1;
 }
 
 .header__menu {
 padding: 33px;
-margin-left: 150px;
+margin-left: 10vh;
 }
 
 .menu-button {
@@ -71,7 +71,7 @@ display: inline-block;
 display: flex;            
 justify-content: flex-start;
 position: relative;
-left: 250px;
+margin-left: 23vh;
 bottom: 30px;
 }
 
@@ -111,14 +111,14 @@ position: relative;
 display: flex;
 justify-content: flex-end;
 gap: 40px;
-right: 170px;
+right: 10vh;
 bottom: 90px;
 }
 
 .header__collection {
 display: flex;
 flex-direction: column;
-margin-top: 280px;
+margin-top: 30vh;
 }
 
 .header__title {
@@ -129,10 +129,11 @@ font-size: 46px;
 
 }
 
-.header__title p {
+.header__title h1 {
 font-family: 'Raleway', sans-serif;
 color: #f5f5f5;
 font-weight: 300;
+font-size: 60px;
 }
 
 .line {
@@ -164,4 +165,21 @@ color: #f5f5f5;
 .header__text a:hover {
 color: palevioletred;
 transition: 1s ease;
+}
+
+.main__catalog {
+    margin-top: 50vh;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30vh;
+}
+
+.main__img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main__catalog {
+    margin-bottom: 5vh;
 }
