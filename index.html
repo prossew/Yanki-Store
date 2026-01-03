@@ -14,13 +14,13 @@
        </div>
     <div class="dropdown-wrapper">
       <button class="menu-button">
-        <img src="/img/icon/dropdown.svg" alt="иконка-выпадающего меню">
+        <img src="img/icon/dropdown.svg" alt="иконка-выпадающего меню">
     </button>
    <ul class="dropdown">
   <li><a href="#" class="menu-link account">ЛИЧНЫЙ КАБИНЕТ</a></li>
-  <li><a href="#" class="menu-link new">NEW</a></li>
-  <li><a href="#" class="menu-link catalog">КАТАЛОГ</a></li>
-  <li><a href="#" class="menu-link about">О НАС</a></li>
+  <li><a href="/pages/catalog.html" class="menu-link new">NEW</a></li>
+  <li><a href="/pages/catalog.html" class="menu-link catalog">КАТАЛОГ</a></li>
+  <li><a href="/pages/about.html" class="menu-link about">О НАС</a></li>
   <li><a href="#" class="menu-link returns">УСЛОВИЯ ВОЗВРАТА</a></li>
   <li><a href="#" class="menu-link contacts">КОНТАКТЫ</a></li>
 </ul>
@@ -28,27 +28,28 @@
     <nav>
     <div class="header__nav">
      <ul class="nav-list">
-      <li><a href="#" class="nav-link new">NEW</a></li>
-      <li><a href="#" class="nav-link catalog">КАТАЛОГ</a></li>
-      <li><a href="#" class="nav-link about">О НАС</a></li>
+      <li><a href="/pages/catalog.html" class="nav-link new">NEW</a></li>
+      <li><a href="/pages/catalog.html" class="nav-link catalog">КАТАЛОГ</a></li>
+      <li><a href="/pages/about.html" class="nav-link about">О НАС</a></li>
      </ul>
     </div> 
     <div class="header__icon">
-        <img src="/img/icon/YANKI.svg" alt="YANKI-Иконка">
+        <img src="img/icon/YANKI.svg" alt="YANKI-Иконка">
     </div>
 <div class="nav-icon">
-  <a href="#" id="search">
-    <img src="/img/icon/search.svg" alt="иконка-поиска">
+  <a href="/pages/catalog.html" id="search">
+    <img src="img/icon/search.svg" alt="иконка-поиска">
   </a>
   <a href="#" id="personal-account">
-    <img src="/img/icon/personal-account.svg" alt="иконка-личного-кабинета">
+    <img src="img/icon/personal-account.svg" alt="иконка-личного-кабинета">
   </a>
   <a href="#" id="like">
-    <img src="/img/icon/like.svg" alt="иконка-избранных">
+    <img src="img/icon/like.svg" alt="иконка-избранных">
   </a>
-  <a href="#" id="basket">
-    <img src="/img/icon/basket.svg" alt="иконка-корзины">
-  </a>
+  <a href="/pages/cart.html" id="basket" class="basket-link">
+    <img src="../img/icon/beige.basket.svg" alt="иконка-корзины">
+    <span class="cart-count">0</span>
+</a>
 </div>
      </nav>
      <div class="header__collection">
@@ -57,19 +58,20 @@
      </div>
      <div class="line"></div>
      <div class="header__text">
-        <a href="#">Смотреть Новинки ></a>
+        <a href="/pages/catalog.html">Смотреть Новинки ></a>
      </div>
     </div>
 </header>
+
 <main>
   <div class="main__catalog">
     <p>Категории</p>
   </div>
   <div class="main__img">
-    <a href="#"><img src="/img/pictures/jackets.png" alt="картинка-куртки"></a>
-    <a href="#"><img src="/img/pictures/coat.png" alt="картинка-пальто"></a>
-    <a href="#"><img src="/img/pictures/fur_coats.png" alt="картинка-шубы"></a>
-    <a href="#"><img src="/img/pictures/parks.png" alt="картинка-парки"></a>
+    <a href="/pages/catalog.html"><img src="img/pictures/jackets.png" alt="картинка-куртки"></a>
+    <a href="/pages/catalog.html"><img src="img/pictures/coat.png" alt="картинка-пальто"></a>
+    <a href="/pages/catalog.html"><img src="img/pictures/fur_coats.png" alt="картинка-шубы"></a>
+    <a href="/pages/catalog.html"><img src="img/pictures/parks.png" alt="картинка-парки"></a>
   </div>
 </main>
 <section class="subscription">
@@ -86,13 +88,14 @@
       <p class="subscription__notice">Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с условиями конфиденциальности.</p>
   </div>
 </section>
+
 <footer>
   <nav class="footer_nav">
     <div class="footer__column company">
       <div class="footer__title">
         <p>КОМПАНИЯ</p>
     <ul class="footer__list">
-        <li><a href="#">О компании</a></li>
+        <li><a href="/pages/about.html">О компании</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
       </div>
@@ -113,7 +116,7 @@
       <div class="footer__title">
         <p>ПОКУПАТЕЛЮ</p>
     <ul class="footer__list">
-        <li><a href="#">Избранное</a></li>
+        <li><a href="/pages/cart.html">Корзина</a></li>
         <li><a href="#">Публичная оферта</a></li>
         <li><a href="#">Политика конфиденциальности</a></li>
       </ul>
@@ -124,7 +127,7 @@
       <div class="footer__title">
         <p>КОНТАКТЫ</p>
     <ul class="footer__list">
-        <a href="#" class="footer__icon"><img src="/img/icon/icon_telegram.svg" alt=""></a>
+        <a href="#" class="footer__icon"><img src="img/icon/icon_telegram.svg" alt=""></a>
         <li><a href="#">+8000000000</a></li>
         <li><a href="#">info@yanki.com</a></li>
       </ul>
@@ -132,6 +135,7 @@
     </div>
   </nav>
 </footer>
-<div class="back"></div>
+<div class="back"><p>©️ 2026 Yanki. All rights reserved</p></div>
+
 </body>
 </html>

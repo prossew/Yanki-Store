@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js" defer></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <div class="header__position">
+        <div class="header__navigation">
+            <nav>
+                <ul>
+                    <a href="catalog.html"><li>NEW</li></a>
+                    <a href="catalog.html" class="catalog"><li>Каталог</li></a>
+                    <a href="about.html"><li>О НАС</li></a>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__name">
+            <a href="/index.html"><img src="/img/icon/catalog__header.svg" alt="иконка YANKI"></a>
+        </div>   
+
+      <div class="header__icons">  
+  <a href="catalog.html" id="search">
+    <img src="/img/icon/black_search.svg" alt="иконка-поиска">
+  </a>
+  <a href="#" id="personal-account">
+    <img src="/img/icon/beige_lk.svg" alt="иконка-личного-кабинета">
+  </a>
+  <a href="#" id="like">
+    <img src="/img/icon/beige_like.svg" alt="иконка-избранных">
+  </a>
+<a href="cart.html" id="basket" class="basket-link">
+    <img src="../img/icon/beige.basket.svg" alt="иконка-корзины">
+    <span class="cart-count">0</span>
+</a>
+      </div>
+</div>
+    </header> 
+    <main>
+        <div class="main__navigation">
+          <a href="/index.html"><p>Главная</p></a>
+                  <p class="main__navigation-text">></p>
+        <a href="#"><p>Каталог</p></a>
+        </div>
+        <div class="catalog-container">
+        <aside class="main__aside">
+        <div class="aside__title">
+            <p>Каталог</p>
+        </div>
+        <div class="aside__section">
+    <a href="#" class="filter-link" data-filter="new"><p>New</p></a> 
+    <a href="#" class="filter-link" data-filter="bestsellers"><p>Bestsellers</p></a> 
+    <a href="#" class="filter-link" data-filter="jackets"><p>Верхняя одежда</p></a> 
+    <a href="#" class="filter-link" data-filter="fur"><p>Шубы</p></a> 
+    <a href="#" class="filter-link" data-filter="trench"><p>Тренчи</p></a> 
+    <a href="#" class="filter-link" data-filter="coats"><p>Пальто</p></a> 
+    <a href="#" class="filter-link" data-filter="down"><p>Пуховики и жилеты</p></a> 
+    <a href="#" class="filter-link" data-filter="suits"><p>Костюмы</p></a> 
+    <a href="#" class="filter-link" data-filter="jackets"><p>Жакеты</p></a> 
+    <a href="#" class="filter-link" data-filter="dresses"><p>Платья</p></a> 
+    <a href="#" class="filter-link" data-filter="shirts"><p>Рубашки и блузы</p></a> 
+    <a href="#" class="filter-link" data-filter="skirts"><p>Юбки</p></a> 
+    <a href="#" class="filter-link" data-filter="tops"><p>Футболки и топы</p></a> 
+    <a href="#" class="filter-link" data-filter="accessories"><p>Аксессуары</p></a> 
+    <a href="#" class="filter-link" data-filter="sale"><p>Sale</p></a> 
+    <a href="#" class="filter-link" data-filter="summer"><p>Summer</p></a> 
+    <a href="#" class="filter-link" data-filter="all"><p>Посмотреть всё</p></a> 
+        </div>
+        </aside>
+         
+        <section class="products">
+
+        <div class="product-card" data-category="new" data-type="jackets">
+          <img src="/img/pictures/white_jacket.jpg" alt="Белая куртка">
+          <p class="product-name">Белая куртка <span>new</span></p>
+          <p class="product-price">5600₽</p>
+          <div class="sizes">XXS XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+     
+         <div class="product-card" data-category="coats">
+          <img src="/img/pictures/blue_coat.jpg" alt="Синее Пальто">
+          <p class="product-name">Синее пальто</p>
+          <p class="product-price">6900₽</p>
+          <div class="sizes">XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+         
+        <div class="product-card" data-category="fur">
+          <img src="/img/pictures/beige_furcoat.jpg" alt="Бежевая шуба">
+          <p class="product-name">Бежевая шуба</p>
+          <p class="product-price">8200₽</p>
+          <div class="sizes">S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+
+         <div class="product-card" data-category="new" data-type="jackets">
+          <img src="/img/pictures/blue_parka.jpg" alt="Бежевая шуба">
+          <p class="product-name">Синяя парка <span>new</span></p>
+          <p class="product-price">5900₽</p>
+          <div class="sizes"> XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+
+          <div class="product-card"  data-category="new" data-type="jackets">
+          <img src="/img/pictures/white_jacket.jpg" alt="Белая куртка">
+          <p class="product-name">Белая куртка <span>new</span></p>
+          <p class="product-price">5600₽</p>
+          <div class="sizes">XXS XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+
+             <div class="product-card" data-category="coats">
+          <img src="/img/pictures/blue_coat.jpg" alt="Синее Пальто">
+          <p class="product-name">Синее пальто</p>
+          <p class="product-price">6900₽</p>
+          <div class="sizes">XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+
+         <div class="product-card"  data-category="new" data-type="jackets">
+          <img src="/img/pictures/white_jacket.jpg" alt="Белая куртка">
+          <p class="product-name">Белая куртка <span>new</span></p>
+          <p class="product-price">5600₽</p>
+          <div class="sizes">XXS XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+     
+         <div class="product-card" data-category="coats">
+          <img src="/img/pictures/blue_coat.jpg" alt="Синее Пальто">
+          <p class="product-name">Синее пальто</p>
+          <p class="product-price">6900₽</p>
+          <div class="sizes">XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+         
+        <div class="product-card" data-category="fur">
+          <img src="/img/pictures/beige_furcoat.jpg" alt="Бежевая шуба">
+          <p class="product-name">Бежевая шуба</p>
+          <p class="product-price">8200₽</p>
+          <div class="sizes">S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+
+         <div class="product-card" data-category="new" data-type="jackets"">
+          <img src="/img/pictures/blue_parka.jpg" alt="Синяя парка">
+          <p class="product-name">Синяя парка <span>new</span></p>
+          <p class="product-price">5900₽</p>
+          <div class="sizes"> XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+
+           <div class="product-card"  data-category="new" data-type="jackets">
+          <img src="/img/pictures/white_jacket.jpg" alt="Белая куртка">
+          <p class="product-name">Белая куртка <span>new</span></p>
+          <p class="product-price">5600₽</p>
+          <div class="sizes">XXS XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+
+             <div class="product-card" data-category="coats">
+          <img src="/img/pictures/blue_coat.jpg" alt="Синее Пальто">
+          <p class="product-name">Синее пальто</p>
+          <p class="product-price">6900₽</p>
+          <div class="sizes">XS S M L</div>
+         <button class="add-to-cart" data-id="1">В корзину</button>
+        </div>
+      </section>
+      </div>
+    </main>
+    <footer>
+  <nav class="footer_nav">
+    <div class="footer__column company">
+      <div class="footer__title">
+        <p>КОМПАНИЯ</p>
+    <ul class="footer__list">
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      </div>
+    </div>
+
+  <div class="footer__column usefull">
+      <div class="footer__title">
+        <p>ПОЛЕЗНОЕ</p>
+    <ul class="footer__list">
+        <li><a href="#">Оплата и доставка</a></li>
+        <li><a href="#">Условия возврата</a></li>
+        <li><a href="#">Бонусная система</a></li>
+      </ul>
+      </div>
+    </div>
+
+     <div class="footer__column buyer">
+      <div class="footer__title">
+        <p>ПОКУПАТЕЛЮ</p>
+    <ul class="footer__list">
+        <li><a href="#">Избранное</a></li>
+        <li><a href="#">Публичная оферта</a></li>
+        <li><a href="#">Политика конфиденциальности</a></li>
+      </ul>
+      </div>
+    </div>
+
+     <div class="footer__column contacts" >
+      <div class="footer__title">
+        <p>КОНТАКТЫ</p>
+    <ul class="footer__list">
+        <a href="#" class="footer__icon"><img src="/img/icon/icon_telegram.svg" alt=""></a>
+        <li><a href="#">+8000000000</a></li>
+        <li><a href="#">info@yanki.com</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+</footer>
+<div class="back"><p>©️ 2026 Yanki. All rights reserved</p></div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js" defer></script>
+    <title>Корзина</title>
+</head>
+<body>
+    <header>
+        <div class="header__position">
+            <div class="header__navigation">
+                <nav>
+                    <ul>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="catalog.html" class="catalog">Каталог</a></li>
+                        <li><a href="about.html">О НАС</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__name">
+                <a href="../index.html"><img src="../img/icon/catalog__header.svg" alt="YANKI"></a>
+            </div>   
+            <div class="header__icons">  
+                <a href="catalog.html" id="search">
+                    <img src="../img/icon/black_search.svg" alt="Поиск">
+                </a>
+                <a href="#" id="personal-account">
+                    <img src="../img/icon/beige_lk.svg" alt="Личный кабинет">
+                </a>
+                <a href="#" id="like">
+                    <img src="../img/icon/beige_like.svg" alt="Избранное">
+                </a>
+               <a href="cart.html" id="basket" class="basket-link">
+               <img src="../img/icon/beige.basket.svg" alt="иконка-корзины">
+               <span class="cart-count">0</span>
+               </a>
+            </div>
+        </div>
+    </header> 
+    
+  <main class="cart-main">
+        <div class="cart-title">
+            <h1>Ваша корзина</h1>
+        </div>
+
+        <div class="cart-content">
+       
+            <div class="cart-items" id="cart-items">
+                <div class="empty-cart" id="empty-cart">
+                    <p>Ваша корзина пуста</p>
+                    <a href="catalog.html" class="continue-shopping">← Перейти в каталог</a>
+                </div>
+            </div>
+
+            <div class="cart-summary" id="cart-summary">
+                <div class="summary-row">
+                    <span>Товары (<span id="summary-count">0</span> шт.)</span>
+                    <span id="subtotal">0 ₽</span>
+                </div>
+                <div class="summary-row">
+                    <span>Доставка</span>
+                    <span>Бесплатно</span>
+                </div>
+                <div class="summary-total">
+                    <span>К оплате:</span>
+                    <span class="total-price" id="total-price">0 ₽</span>
+                </div>
+                <button class="checkout-btn">Оформить заказ</button>
+                <a href="catalog.html" class="continue-shopping">← Продолжить покупки</a>
+            </div>
+        </div>
+    </main>
+  
+
+    <footer>
+        <nav class="footer_nav">
+            <div class="footer__column company">
+                <div class="footer__title">
+                    <p>КОМПАНИЯ</p>
+                    <ul class="footer__list">
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column usefull">
+                <div class="footer__title">
+                    <p>ПОЛЕЗНОЕ</p>
+                    <ul class="footer__list">
+                        <li><a href="#">Оплата и доставка</a></li>
+                        <li><a href="#">Условия возврата</a></li>
+                        <li><a href="#">Бонусная система</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column buyer">
+                <div class="footer__title">
+                    <p>ПОКУПАТЕЛЮ</p>
+                    <ul class="footer__list">
+                        <li><a href="#">Избранное</a></li>
+                        <li><a href="#">Публичная оферта</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column contacts">
+                <div class="footer__title">
+                    <p>КОНТАКТЫ</p>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__icon"><img src="../img/icon/icon_telegram.svg" alt="Telegram"></a></li>
+                        <li><a href="#">+8000000000</a></li>
+                        <li><a href="#">info@yanki.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+    <div class="back"><p>©️ 2026 Yanki. All rights reserved</p></div>
+</body>
+</html>
