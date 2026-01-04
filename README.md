@@ -1,46 +1,72 @@
-🛍️ Yanki-Store - Frontend Clothing Store
+# 🛍️ Yanki-Store - Frontend Clothing Store
 
-Yanki-Store is a responsive frontend clothing store template built with modern web technologies and deployed via GitHub Pages. The project demonstrates a clean and stylish e-commerce UI, product catalog structure, and basic shopping-oriented user experience.
+**Yanki-Store** is a responsive frontend template for an online clothing store, built with modern web technologies and deployed via GitHub Pages.  
+The project demonstrates a clean e-commerce UI, structured product catalog, and intuitive navigation.
 
-🌐 Live demo: https://prossew.github.io/Yanki-Store/
+🌐 **Live Demo:** https://prossew.github.io/Yanki-Store/
 
-📌 Project Features
-🧩 UI Components
+---
 
-Homepage with highlighted sections such as New Collection, featured products, and categories
+## 📌 Project Features
 
-Product categories (jackets, coats, fur coats, parkas, etc.) visually represented with images
+### 🧩 UI Components
+- Homepage with highlighted sections such as **New Collection**, featured products, and categories  
+- Product categories (jackets, coats, fur coats, parkas, etc.) displayed with visual previews  
+- Navigation menu including:
+  - User account
+  - Catalog
+  - About us
+  - Return policy
+  - Contacts
 
-Navigation menu including:
+- Newsletter subscription form with personal data agreement
+- Footer with contact information and legal pages (offer, privacy policy)
 
-User account
+---
 
-Catalog
+## 🧠 Project Purpose
 
-About us
+The main goal of **Yanki-Store** is to showcase a **pure frontend implementation of an online store**, focusing on:
+- clean and modern layout
+- structured product presentation
+- user-friendly navigation
 
-Return policy
+The project can be used as:
+- a portfolio example
+- a base for backend / API integration
+- an educational frontend project
 
-Contacts
+---
 
-Newsletter subscription form for new collections with personal data agreement
+## 💡 Possible Improvements & Future Development
 
-Footer section with contact information and legal pages (offer, privacy policy)
+- Backend API integration for products and user accounts  
+- Shopping cart and checkout logic  
+- Payment system integration  
+- Enhanced mobile optimization  
+- Build automation (Webpack, Vite, etc.)
 
-🧠 Project Purpose
+---
 
-🎯 The main goal of Yanki-Store is to showcase a pure frontend implementation of an online store, focusing on clean layout, structured product presentation, and intuitive navigation. The project can be used as a portfolio example, a base for backend/API integration, or for educational purposes.
+## ⚙️ Tech Stack
 
-💡 Possible Improvements & Future Development
+- HTML5  
+- CSS3  
+- JavaScript  
+- GitHub Pages (deployment)
 
-The project is visually complete, but can be extended further:
+---
 
-✅ Backend API integration for products and user accounts
-✅ Shopping cart and checkout logic
-✅ Payment system integration
-✅ Additional mobile optimization
-✅ Build automation (Webpack, Vite, etc.)
+## 📷 Preview
 
-⚙️ Tech Stack (assumed)
+> Screenshots can be added here to visually demonstrate the UI.
 
-Based on the project structure, Yanki-Store is a classic HTML / CSS / JavaScript frontend project deployed using GitHub Pages.
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/prossew/Yanki-Store.git
+cd Yanki-Store
