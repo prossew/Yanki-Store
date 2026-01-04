@@ -59,7 +59,8 @@ The project can be used as:
 
 ## 📷 Preview
 
-> Screenshots can be added here to visually demonstrate the UI.
+### Homepage
+![Yanki Store Homepage](./img/main_screen.png)
 
 ---
 
