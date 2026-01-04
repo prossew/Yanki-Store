@@ -60,7 +60,7 @@ The project can be used as:
 ## 📷 Preview
 
 ### Homepage
-![Yanki Store Homepage](./img/main_screen.png)
+![Yanki Store Homepage](./img/pictures/main_screen.png)
 
 ---
 
