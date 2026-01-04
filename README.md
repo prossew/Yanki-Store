@@ -5,7 +5,7 @@ This is a repository for a simple static website of the **YANKI** women's clothi
 
 The site is a single-page application with a homepage, product catalog, "About Us" page, and shopping cart. Built using pure HTML, CSS, and JavaScript (no backend).
 
-test: 
+test: https://prossew.github.io/Yanki-Store/
 
 ## Features
 
