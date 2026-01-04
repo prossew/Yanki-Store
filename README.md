@@ -1,57 +1,46 @@
-# Yanki-Store
-# YANKI — Women's Clothing Online Store
+🛍️ Yanki-Store - Frontend Clothing Store
 
-This is a repository for a simple static website of the **YANKI** women's clothing online store — a brand of modern classics.
+Yanki-Store is a responsive frontend clothing store template built with modern web technologies and deployed via GitHub Pages. The project demonstrates a clean and stylish e-commerce UI, product catalog structure, and basic shopping-oriented user experience.
 
-The site is a single-page application with a homepage, product catalog, "About Us" page, and shopping cart. Built using pure HTML, CSS, and JavaScript (no backend).
+🌐 Live demo: https://prossew.github.io/Yanki-Store/
 
-test: https://prossew.github.io/Yanki-Store/
+📌 Project Features
+🧩 UI Components
 
-## Features
+Homepage with highlighted sections such as New Collection, featured products, and categories
 
-- Responsive design (desktop-first, partially mobile-friendly)
-- Homepage with a large banner for the new collection
-- Product catalog with category filtering (New, Bestsellers, Outerwear, etc.)
-- "About Us" page with brand description and philosophy
-- Shopping cart with add-to-cart functionality, quantity counter, and total price (data stored in localStorage)
-- Minimalist and elegant design in beige-brown tones
-- Newsletter subscription form (frontend only)
+Product categories (jackets, coats, fur coats, parkas, etc.) visually represented with images
 
-## Project Structure
-/
-├── index.html          # Homepage
-├── pages/
-│   ├── about.html      # About Us page
-│   ├── catalog.html    # Product catalog
-│   └── cart.html       # Shopping cart
-├── style.css           # Main styles
-├── main.js             # Cart logic, filters, and interactive elements
-├── img/
-│   ├── icon/           # Icons (logo, search, cart, etc.)
-│   └── pictures/       # Product photos and backgrounds
-└── README.md           # This file
-text## How to Run Locally
+Navigation menu including:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/yanki-store.git
+User account
 
-Navigate to the project folder:Bashcd yanki-store
-Open index.html in your browser (double-click or use Live Server in VS Code).
+Catalog
 
-No dependencies or build tools required — works out of the box.
-Technologies
+About us
 
-HTML5
-CSS3 (Flexbox, Grid, responsive layout)
-Vanilla JavaScript (ES6+)
-Raleway font from Google Fonts
+Return policy
 
-What's Implemented
+Contacts
 
-Category filtering in the catalog (sidebar links)
-Adding products to the cart
-Cart icon counter update
-Empty/filled cart view with subtotal
-Mobile dropdown menu
+Newsletter subscription form for new collections with personal data agreement
 
+Footer section with contact information and legal pages (offer, privacy policy)
+
+🧠 Project Purpose
+
+🎯 The main goal of Yanki-Store is to showcase a pure frontend implementation of an online store, focusing on clean layout, structured product presentation, and intuitive navigation. The project can be used as a portfolio example, a base for backend/API integration, or for educational purposes.
+
+💡 Possible Improvements & Future Development
+
+The project is visually complete, but can be extended further:
+
+✅ Backend API integration for products and user accounts
+✅ Shopping cart and checkout logic
+✅ Payment system integration
+✅ Additional mobile optimization
+✅ Build automation (Webpack, Vite, etc.)
+
+⚙️ Tech Stack (assumed)
+
+Based on the project structure, Yanki-Store is a classic HTML / CSS / JavaScript frontend project deployed using GitHub Pages.
